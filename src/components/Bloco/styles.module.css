@@ -1,0 +1,40 @@
+.bloco {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.acerto {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  color: black;
+  cursor: pointer;
+  background-color: #00ff00;
+}
+.errado {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: black;
+  cursor: pointer;
+  background-color: #ff0000;
+}
